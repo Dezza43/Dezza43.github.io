@@ -175,6 +175,74 @@ body {
 
 /*This is for the containers for CONTACT */
 
+.items {
+	display: flex;
+	flex-wrap: wrap;
+	margin-left: -10px;
+	margin-top: -10px;
+}
+.items .item-img {
+	flex: 1 0 calc(53% - 10px);
+  background: red;
+  padding: 10%;
+	margin-left: 70px;
+	margin-top: 20px;
+}
+.items .item-Hours {
+	flex: 1 0 calc(53% - 10px);
+  background: red;
+  padding: 3%;
+	margin-left: 70px;
+	margin-top: 40px;
+}
+
+.items .item-Address {
+	flex: 1 0 calc(33% - 10px);
+  background: red;
+  padding: 0%;
+    height: 200px;
+	margin-left: 40px;
+    margin-right: 70px;
+	margin-top: 40px;
+}
+
+.items .item-google {
+	flex: 1 0 calc(33% - 10px);
+  background: red;
+  padding: 10%;
+    height: 600px;
+	margin-left: 40px;
+    margin-right: 70px;
+	margin-top: 20px;
+}
+
+.items .item-Questions {
+	flex: 1 0 calc(53% - 10px);
+  background: red;
+  padding: 0%;
+	margin-left: 70px;
+	margin-top: 20px;
+}
+
+.items .item-thoughts {
+flex: 1 0 calc(33% - 10px);
+  background: red;
+  padding: 5%;
+	margin-left: 40px;
+    margin-right: 70px;
+	margin-top: 20px;
+}
+
+
+.items .item {
+	flex: 1 0 calc(45% - 10px);
+  box-sizing: border-box;
+  background: #e0ddd5;
+  color: #171e42;
+  padding: 10px;
+	margin-left: 10px;
+	margin-top: 10px;
+}
 
 
 
@@ -197,7 +265,14 @@ body {
     justify-content: center;
     background-color: #7e5d45;
 }
-/* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
+/* Responsive layout - when the screen.bigitem {
+   /* This will be twice as */
+   /* big as the small item. */
+   flex: 2 0 0;
+}
+.smallitem {
+   flex: 1 0 0;
+} is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 700px) {
     .row {   
         flex-direction: column;
