@@ -181,24 +181,70 @@ body {
 	margin-left: -10px;
 	margin-top: -10px;
 }
+.items h1 {
+    color: white;
+    text-align: center;
+    font-family: headNStuff;
+    font-size: 55px;
+    margin-top: 20px;
+    margin-bottom: 25px;
+}
+
+.hours {
+    color: white;
+    margin-right: 30px;
+    margin-left: 30px;
+    font-family: headNStuff;
+    font-size: 45px;
+    margin-bottom: 0px;
+    margin-top: -10px;
+}
+
+
+.items h3 {
+    color: white;
+    margin-left: 107px;
+    margin-right: 110px;
+    margin-bottom: 0px;
+    margin-top: 10px;
+    font-family: headNStuff;
+    font-size: 25px;
+}
+
+.address {
+    color: white;
+    font-family: headNStuff;
+    font-size: 29px;
+    margin-bottom: 20px;
+    margin-top: -10px;
+    text-align: center;
+    letter-spacing: 2px;
+}
 .items .item-img {
 	flex: 1 0 calc(53% - 10px);
-  background: red;
+  background: #7e5d45;
   padding: 10%;
 	margin-left: 70px;
 	margin-top: 20px;
+    padding: 10px;
 }
+
+.items .item-img > img {
+    position: absolute;
+    max-height: 580px;
+    width: 1038px;
+}
+
 .items .item-Hours {
 	flex: 1 0 calc(53% - 10px);
-  background: red;
-  padding: 3%;
+  background: #7e5d45;
 	margin-left: 70px;
 	margin-top: 40px;
 }
 
 .items .item-Address {
 	flex: 1 0 calc(33% - 10px);
-  background: red;
+  background: #7e5d45;
   padding: 0%;
     height: 200px;
 	margin-left: 40px;
@@ -208,8 +254,8 @@ body {
 
 .items .item-google {
 	flex: 1 0 calc(33% - 10px);
-  background: red;
-  padding: 10%;
+    background: #7e5d45;
+    padding: 1%;
     height: 600px;
 	margin-left: 40px;
     margin-right: 70px;
@@ -218,19 +264,21 @@ body {
 
 .items .item-Questions {
 	flex: 1 0 calc(53% - 10px);
-  background: red;
-  padding: 0%;
+    background: #7e5d45;
+    padding: 0%;
 	margin-left: 70px;
+    height: 250px;
 	margin-top: 20px;
 }
 
 .items .item-thoughts {
 flex: 1 0 calc(33% - 10px);
-  background: red;
-  padding: 5%;
+  background: #7e5d45;
 	margin-left: 40px;
     margin-right: 70px;
+    height: 250px;
 	margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 
