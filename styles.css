@@ -353,6 +353,7 @@ input[type=text] {
     display: flex;
     width: 100%;
     padding: 9px;
+    font-family: headNStuff;
     border: 1px solid #ccc;
     box-sizing: border-box;
     margin-left: 12px;
