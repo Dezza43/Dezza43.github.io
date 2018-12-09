@@ -223,7 +223,6 @@ body {
 .items .item-img {
 	flex: 1 0 calc(53% - 10px);
   background: #7e5d45;
-  padding: 10%;
 	margin-left: 70px;
 	margin-top: 20px;
     padding: 10px;
@@ -255,7 +254,7 @@ body {
 .items .item-google {
 	flex: 1 0 calc(33% - 10px);
     background: #7e5d45;
-    padding: 1%;
+    padding: .5%;
     height: 600px;
 	margin-left: 40px;
     margin-right: 70px;
@@ -271,6 +270,16 @@ body {
 	margin-top: 20px;
 }
 
+.Questions {
+    text-align: center;
+    color: white;
+    font-family: headNStuff;
+    font-size: 36px;
+    line-height: 55px;
+    margin-right: 90px;
+    margin-left: 90px;
+}
+
 .items .item-thoughts {
 flex: 1 0 calc(33% - 10px);
   background: #7e5d45;
@@ -280,7 +289,13 @@ flex: 1 0 calc(33% - 10px);
 	margin-top: 20px;
     margin-bottom: 20px;
 }
-
+.item-thoughts > h5 {
+    color: white;
+    text-align: center;
+    font-family: headNStuff;
+    margin-top: -25px;
+    font-size: 20px;
+}
 
 .items .item {
 	flex: 1 0 calc(45% - 10px);
@@ -293,7 +308,21 @@ flex: 1 0 calc(33% - 10px);
 }
 
 
+.mapouter {
+    height:570px;
+    width: 00px;
+}
+.gmap_canvas {    
+    overflow:hidden;
+    height:580px;
+    width:655px;
+}
 
+iframe {
+     width: 655px ;
+     height: 580px;
+    border: 0;
+}
 /* Footer */
 .footer {
     position: relative;
@@ -316,11 +345,7 @@ flex: 1 0 calc(33% - 10px);
 /* Responsive layout - when the screen.bigitem {
    /* This will be twice as */
    /* big as the small item. */
-   flex: 2 0 0;
-}
-.smallitem {
-   flex: 1 0 0;
-} is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
+ /* is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 700px) {
     .row {   
         flex-direction: column;
@@ -362,7 +387,6 @@ a:hover
   
   z-index: 1;
   
-  -webkit-user-select: none;
   user-select: none;
 }
 
@@ -496,20 +520,18 @@ a:hover
 
 input[type=text] {
     display: flex;
-    width: 100%;
+    width: 94.3%;
     padding: 9px;
-    border: 1px solid #ccc;
     box-sizing: border-box;
-    margin-left: 12px;
-    margin-right: 12px;
-    
+    margin-left: 20px;
+    margin-right: 20px;
+    font-family: headNStuff;
 }
+
 input[type=submit] {
     display: flex;
     width: 50%;
     padding: 12px;
-    margin-bottom: 30px;
-    border: 1px solid #ccc;
     box-sizing: border-box;
 }
 
@@ -523,6 +545,7 @@ input[type=submit] {
     color: white;
     border: none;
 }
+
 
 input[type=submit]:hover {
     opacity: 0.8;
